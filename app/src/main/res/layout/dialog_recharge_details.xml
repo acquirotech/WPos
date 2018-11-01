@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text=" ₹ 100.00"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvSubId"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Mobile No. : 8282828282"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Status : Successful"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Operator : Airtel"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Circle : Delhi"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/tvPayMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Payment Mode : Cash"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/bClose"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_success"/>
+
+
+</LinearLayout>

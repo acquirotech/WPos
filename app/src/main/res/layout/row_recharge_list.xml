@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/tvSubId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="8282828288"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRechargeStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvSubId"
+            android:layout_below="@+id/tvOperator"
+            android:text="Status: Successful" />
+
+        <TextView
+            android:id="@+id/tvRechargeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvSubId"
+            android:layout_below="@+id/tvRechargeStatus"
+            android:text="RechargeId: 12354653453 " />
+
+        <TextView
+            android:id="@+id/tvOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvSubId"
+            android:layout_below="@+id/tvSubId"
+            android:text="Airtel" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/tvAmount"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#DEDEDE" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Rs.100"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
